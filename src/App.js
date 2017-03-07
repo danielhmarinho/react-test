@@ -6,13 +6,15 @@ let cardsList = [
     {
         id: 1,
         title: "Read the Book",
-        description: "I should read the whole book",
+        description: "I should read the book",
+        color: '#BD8D31',
         status: "in-progress",
         tasks: []
     }, {
         id: 2,
         title: "Write some code",
-        description: "Code along with the samples in the book",
+        description: "Code along with the samples ... at [github](https://github.com/pro-react)",
+        color: '#3A7E28',
         status: "todo",
         tasks: [
             {
@@ -31,4 +33,5 @@ let cardsList = [
         ]
     }
 ];
-ReactDOM.render(<KanbanBoard cards={cardsList}/>, document.getElementById('root'));
+ReactDOM.render(
+    <KanbanBoard cards={cardsList}/>, document.getElementById('root'));
