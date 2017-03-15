@@ -10,6 +10,7 @@
     "fetch-polyfill": "^0.8.2",
     "marked": "^0.3.6",
     "react": "^15.4.2",
+    "react-addons-update": "^15.4.2",
     "react-dom": "^15.4.2",
     "whatwg-fetch": "^2.0.3"
   },
